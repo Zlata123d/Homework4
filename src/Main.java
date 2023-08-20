@@ -8,8 +8,7 @@ public class Main {
         task5();
         task6();
         task7();
-        task8();
-    task9()}
+    task8();}
 
     public static void task1() {
         System.out.println("Задача 1");
@@ -112,29 +111,24 @@ public class Main {
         int standing=oneCar-sedentary;
         System.out.println(standing);System.out.println("Стоячих мест");{
 
-        int sittingPlace=50;
-        if (sittingPlace <=60){
-            System.out.println("Сидячие места есть");}
-        else {
-            System.out.println("Сидячих мест нет");
-        }}}
+        int  peopleInCar = 50;
+        boolean enoughSpace= peopleInCar >standing || peopleInCar >sedentary;
+        if (enoughSpace) {
+            System.out.println("Места в вагоне не хватает");
+        }else { System.out.println("Места в вагоне есть");
 
-                public static void task8(){
-
-            int standingPlace=41;
-            if (standingPlace <=42){
-                System.out.println("Стоячие места есть");}
-
-            else{
-                System.out.println("Стоячих мест нет");{
-                }
-            }}
-
-                    public static void task9(){
+    }}}
+    public static void task8() {
         System.out.println("Задача 7");
-
+        int one=1;
+        int two=2;
+        int three=3;
+        boolean aLargerNumber= one < 2 || two < 3;
+        if (aLargerNumber) {
+            System.out.println("Большее число");
+        }else{ System.out.println("Меньшее число");
+        }
     }}
-
 
 
 
