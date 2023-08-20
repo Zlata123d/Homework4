@@ -5,7 +5,11 @@ public class Main {
         task2();
         task3();
         task4();
-    }
+        task5();
+        task6();
+        task7();
+        task8();
+    task9()}
 
     public static void task1() {
         System.out.println("Задача 1");
@@ -25,11 +29,12 @@ public class Main {
 
         if (temperature >= 5) {
             System.out.println("Сегодня тепло, можно идти без шапки");
-        }}
+        }
+    }
 
 
-        public static void task3 () {
-            System.out.println("Задача 3");
+    public static void task3() {
+        System.out.println("Задача 3");
 
         int speed = 70;
         if (speed > 60) {
@@ -40,33 +45,103 @@ public class Main {
             System.out.println("Превышения скорости нет");
         }
     }
-    public static void task4(){
+
+    public static void task4() {
         System.out.println("Задача 4");
-        int age=2;
-        if (age <=2){
-            System.out.println("Тебе пора спать");}
-            int age2 =2;
-            if ( age2 ==2 || age2 <=6);{
-                System.out.println("Тебе пора в садик");}
-
-        int age3=10;
-        if( age3 ==7 || age3 <=18 ){
-            System.out.println("Тебе надо ходить в школу");}
-// после школы не выводит данные в консоль, но не выдаёт ошибки
-        int age4=20;
-        if( age >18 &&  age4<=24){
-            System.out.println("Твоё место в университете");}
-
-        int age5= 25;
-        if (age5 <=24){
-            System.out.println("Тебе пора ходить на работу");}
-
-        int age6=76;
-        if (age6 <=60){
-            System.out.println("Ты можешь отдохнуть");}
-
+        int age = 2;
+        if (age <= 2) {
+            System.out.println("Тебе пора спать");
         }
+        int age2 = 2;
+        if (age2 == 2 || age2 <= 6) ;
+        {
+            System.out.println("Тебе пора в садик");
         }
+
+        int age3 = 10;
+        if (age3 == 7 || age3 <= 18) {
+            System.out.println("Тебе надо ходить в школу");
+        }}
+        public static void task5() {
+
+
+        int age4 = 20;
+        if (age4 > 18 && age4 <= 24) {
+            System.out.println("Твоё место в университете");
+        }
+// после университета не выводит данные в консоль, но не выдаёт ошибки
+        int age5 = 25;
+        if (age5 <= 24) {
+            System.out.println("Тебе пора ходить на работу");
+        }
+
+        int age6 = 76;
+        if (age6 <= 60) {
+            System.out.println("Ты можешь отдохнуть");
+        }
+
+    }
+
+    public static void task6() {
+        System.out.println("Задача 5");
+        int age = 6;
+        if (age <= 5) {
+            System.out.println("Ты не можешь кататься на аттракционе");
+        } else {
+            System.out.println("Ты можешь кататься на аттракционе");
+        }
+        int age2 = 4;
+        if (age2 >= 5 && age2 <= 14) {
+            System.out.println("Ты можешь кататься в сопровождении взрослого");
+        } else {
+            System.out.println("Тебе нельзя кататься");
+        }
+        System.out.println("Если взрослого нет, то кататься нельзя");
+
+        int age3 = 15;
+        if (age3 >14) {
+            System.out.println("Ты можешь кататься без сопровождения");
+        } else {
+            System.out.println("Кататья только с сопровождением");
+        }
+    }
+    public static void task7(){
+        System.out.println("Задача 6");
+        int oneCar=102;
+        int sedentary=60;
+        int standing=oneCar-sedentary;
+        System.out.println(standing);System.out.println("Стоячих мест");{
+
+        int sittingPlace=50;
+        if (sittingPlace <=60){
+            System.out.println("Сидячие места есть");}
+        else {
+            System.out.println("Сидячих мест нет");
+        }}}
+
+                public static void task8(){
+
+            int standingPlace=41;
+            if (standingPlace <=42){
+                System.out.println("Стоячие места есть");}
+
+            else{
+                System.out.println("Стоячих мест нет");{
+                }
+            }}
+
+                    public static void task9(){
+        System.out.println("Задача 7");
+
+    }}
+
+
+
+
+
+
+
+
 
 
 
