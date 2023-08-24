@@ -8,13 +8,14 @@ public class Main {
         task5();
         task6();
         task7();
-    task8();}
+}
 
     public static void task1() {
         System.out.println("Задача 1");
         int age = 18;
-        if (age >= 17) {
+        if (age >=0 && age <=17) {
             System.out.println("Возраст совершеннолетия еще не наступил и нужно немного подождать");
+        }else{ System.out.println("Возраст совершеннолетия наступил ");
         }
     }
 
@@ -60,8 +61,8 @@ public class Main {
         int age3 = 10;
         if (age3 == 7 || age3 <= 18) {
             System.out.println("Тебе надо ходить в школу");
-        }}
-        public static void task5() {
+        }
+
 
 
         int age4 = 20;
@@ -77,11 +78,11 @@ public class Main {
         int age6 = 76;
         if (age6 <= 60) {
             System.out.println("Ты можешь отдохнуть");
-        }
+        }}
 
-    }
 
-    public static void task6() {
+
+    public static void task5() {
         System.out.println("Задача 5");
         int age = 6;
         if (age <= 5) {
@@ -104,12 +105,13 @@ public class Main {
             System.out.println("Кататья только с сопровождением");
         }
     }
-    public static void task7(){
+    public static void task6(){
         System.out.println("Задача 6");
         int oneCar=102;
         int sedentary=60;
         int standing=oneCar-sedentary;
-        System.out.println(standing);System.out.println("Стоячих мест");{
+        System.out.println(standing);System.out.println("Стоячих мест");
+       {
 
         int  peopleInCar = 50;
         boolean enoughSpace= peopleInCar >standing || peopleInCar >sedentary;
@@ -118,12 +120,12 @@ public class Main {
         }else { System.out.println("Места в вагоне есть");
 
     }}}
-    public static void task8() {
+    public static void task7() {
         System.out.println("Задача 7");
         int one=1;
         int two=2;
         int three=3;
-        boolean aLargerNumber= one < 2 || two < 3;
+        boolean aLargerNumber= one < 2 || two < 3 || three > 1;
         if (aLargerNumber) {
             System.out.println("Большее число");
         }else{ System.out.println("Меньшее число");
