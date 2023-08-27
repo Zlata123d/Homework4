@@ -109,17 +109,17 @@ public class Main {
         System.out.println("Задача 6");
         int oneCar=102;
         int sedentary=60;
-        int standing=oneCar-sedentary;
-        System.out.println(standing);System.out.println("Стоячих мест");
-       {
+        int people=70;
+        if (people== oneCar) {
+            System.out.println("Вагон полностью забит");
+        } else if (people<sedentary) {
+            System.out.println("Есть сидячее место");
+        }else{
+            System.out.println("Есть стоячее место");
 
-        int  peopleInCar = 50;
-        boolean enoughSpace= peopleInCar >standing || peopleInCar >sedentary;
-        if (enoughSpace) {
-            System.out.println("Места в вагоне не хватает");
-        }else { System.out.println("Места в вагоне есть");
 
-    }}}
+
+    }}
     public static void task7() {
         System.out.println("Задача 7");
         int one=1;
